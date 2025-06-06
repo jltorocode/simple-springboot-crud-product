@@ -1,0 +1,68 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Spring Boot Logs ===
+/logs/
+/*.log
+
+# === Maven ===
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# === Gradle ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === IDEs ===
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+*.launch
+.settings/
+.project
+.classpath
+
+# VS Code
+.vscode/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Test Coverage ===
+/coverage/
+*.exec
+jacoco.exec
+*.ec
+*.lcov
+
+# === Logs & Temp files ===
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === Environment & Secrets ===
+.env
+.env.*
+*.keystore
+*.pem
+*.crt
+*.key
+
+# === Docker ===
+**/docker-compose.override.yml
+**/.docker/
